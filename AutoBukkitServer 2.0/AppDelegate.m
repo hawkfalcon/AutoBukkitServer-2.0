@@ -9,10 +9,29 @@
 #import "AppDelegate.h"
 
 @implementation AppDelegate
+@synthesize Build;
+@synthesize RAMType;
+@synthesize RAMAmount;
+@synthesize Username;
+@synthesize CreateServer;
+- (IBAction)ChoosePath:(id)sender {
+    
+}
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
     // Insert code here to initialize your application
+}
+- (IBAction)Create_Server:(id)sender {
+    if(Build != nil) {
+        if(RAMType && RAMAmount != nil) {
+            if(Username != nil) {
+                if(Build == @"Recommended") {
+                
+                 }
+            }
+        }
+    }
 }
 
 @end
