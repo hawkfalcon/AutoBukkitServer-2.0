@@ -14,9 +14,6 @@
 @synthesize RAMAmount;
 @synthesize Username;
 @synthesize CreateServer;
-- (IBAction)ChoosePath:(id)sender {
-    
-}
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
@@ -27,8 +24,12 @@
         if(RAMType && RAMAmount != nil) {
             if(Username != nil) {
                 if(Build == @"Recommended") {
+                    
+                } else if (Build == @"Developer") {
                 
-                 }
+                } else if(Build == @"Beta") {
+                
+                }
             }
         }
     }
