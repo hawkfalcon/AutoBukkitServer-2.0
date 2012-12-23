@@ -18,6 +18,7 @@
 		5448793F162240B500014068 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5448793D162240B500014068 /* InfoPlist.strings */; };
 		54487942162240B500014068 /* AutoBukkitServer_2_0Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 54487941162240B500014068 /* AutoBukkitServer_2_0Tests.m */; };
 		544879501622424E00014068 /* autobukkitserver.png in Resources */ = {isa = PBXBuildFile; fileRef = 5448794F1622424E00014068 /* autobukkitserver.png */; };
+		9E30140C1687C9790095668F /* DownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E30140B1687C9790095668F /* DownloadManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		54487940162240B500014068 /* AutoBukkitServer_2_0Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AutoBukkitServer_2_0Tests.h; sourceTree = "<group>"; };
 		54487941162240B500014068 /* AutoBukkitServer_2_0Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoBukkitServer_2_0Tests.m; sourceTree = "<group>"; };
 		5448794F1622424E00014068 /* autobukkitserver.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = autobukkitserver.png; path = ../../../autobukkitserver.png; sourceTree = "<group>"; };
+		9E30140A1687C9790095668F /* DownloadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownloadManager.h; sourceTree = "<group>"; };
+		9E30140B1687C9790095668F /* DownloadManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownloadManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +123,8 @@
 				5448792A162240B500014068 /* AppDelegate.m */,
 				5448792C162240B500014068 /* MainMenu.xib */,
 				5448791E162240B500014068 /* Supporting Files */,
+				9E30140A1687C9790095668F /* DownloadManager.h */,
+				9E30140B1687C9790095668F /* DownloadManager.m */,
 			);
 			path = "AutoBukkitServer 2.0";
 			sourceTree = "<group>";
@@ -267,6 +272,7 @@
 			files = (
 				54487924162240B500014068 /* main.m in Sources */,
 				5448792B162240B500014068 /* AppDelegate.m in Sources */,
+				9E30140C1687C9790095668F /* DownloadManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -450,6 +456,7 @@
 				54487947162240B500014068 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		54487948162240B500014068 /* Build configuration list for PBXNativeTarget "AutoBukkitServer 2.0Tests" */ = {
 			isa = XCConfigurationList;
@@ -458,6 +465,7 @@
 				5448794A162240B500014068 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
